@@ -5,7 +5,7 @@ st.set_page_config(page_title="Global Superstore Dashboard", layout="wide")
 st.title("Global Superstore Sales Dashboard")
 st.subheader("See more filters in the sidebar")
 
-df = pd.read_csv("Global Superstore.csv")
+df = pd.read_excel("Global Superstore.xls")
 
 # 侧边栏筛选
 st.sidebar.header("Filters")
